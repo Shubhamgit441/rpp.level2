@@ -1,0 +1,528 @@
+body{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+.navber{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+    width: 50%;
+}
+.kk h1{
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    font-size: 83px;
+    margin-bottom: -1px;
+    animation: shubham 10s ease infinite;
+}
+@keyframes praveen {
+    100%{
+        background-position: 2000px 0;
+    }
+    
+}
+.kk p{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-bottom: 33px;
+}
+.detail{
+    top: 49px;
+    margin-left: 62px;
+    right: -842px;
+    width: 355px;
+}
+.secondhalf img{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 719px;
+    top: 0px;
+}
+
+
+.navbar{
+ display: flex;
+} 
+.nav-list{
+    width:50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    list-style: none;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 15px 39px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+   color: whitesmoke;
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    float: right;
+}
+.btn{
+    width: 80px;
+    height: 32px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+.background{
+    background-size: cover;
+    background-blend-mode:darken;
+}
+.firsthalf{
+   width: 80px;
+}
+.box-main{
+    display: flex;
+    justify-content: space-between;
+}
+.firsthalf{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
+}
+.buttons button{
+    margin-left: 66px;
+    height: 42px;
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: #7dd0e169;
+    width: 165px;
+
+}
+.buttons button:hover{
+  box-shadow: 1px 2px 15px rgb(255, 0, 0);
+}
+
+.secright{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.featured
+{
+    width: 400px;
+}
+
+.image-box{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.book_box{
+    position: relative;
+    top: 262px;
+}
+.book_poster img{
+    width: 246px;
+    border-radius: 9px;
+    height: 295px;
+    
+}
+
+.book_poster{
+    transition: all 5s ease;
+
+}
+.book_poster:hover{
+    transform: rotate(160deg) scale(1.2);
+}
+
+.bt1{
+    margin-bottom: 9px;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h1 h1{
+    margin: 10px;
+    font-size: 19px
+    
+}
+
+.tag{
+    display: flex;
+
+    
+}   
+.fortter{
+   position: relative;
+   top: 300px;
+   background-color:#d5e7e7;
+   padding: 10px 0px;
+}
+.ul ul{
+    list-style: none;
+} 
+.para p{
+    padding:20px 30px;
+}
+.top{
+    
+    flex: auto;
+}
+
+.middle{
+    line-height: 47px;
+    margin-right: 177px;
+    margin-left: 69px;
+}
+.bottom{
+    line-height: 47px;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    position: relative;
+    top: 300px;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+.contact-section{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 1s;
+    padding: 100px 150px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+#msg{
+    height: 280px;
+    resize: none;
+    font-family: sans-serif;
+}
+
+.form-submit-btn{
+    background: #ff4f4f;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form{
+  background-color: white;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  /* height: 600px; */
+}
+
+.form-body{
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form-body > *{
+  padding: 5px;
+}
+
+.form__label{
+  width: 40%;
+}
+
+.form_input{
+  width: 60%;
+}
+
+.footer{
+  text-align: center;
+}
